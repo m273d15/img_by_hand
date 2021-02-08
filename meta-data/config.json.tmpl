@@ -1,0 +1,19 @@
+{
+    "architecture": "amd64",
+    "config": {
+        "ExposedPorts": {
+            "8080/tcp": {}
+        },
+        "Entrypoint": [
+            "/server/serve"
+        ]
+    },
+    "os": "linux",
+    "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+            "sha256:LAYER_0_DIFFID",
+            "sha256:LAYER_1_DIFFID"
+        ]
+    }
+}

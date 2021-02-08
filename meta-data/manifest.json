@@ -1,0 +1,12 @@
+[
+    {
+        "Config": "config.json",
+        "RepoTags": [
+            "manual-mini-image:1.1"
+        ],
+        "Layers": [
+            "layer_0.tar",
+            "layer_1.tar"
+        ]
+    }
+  ]
