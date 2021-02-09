@@ -1,3 +1,5 @@
+SHELL := /bin/bash
+
 prep_dir = preparation
 img_dir = image
 
