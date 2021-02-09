@@ -63,7 +63,7 @@ load: image.tar
 	docker load --input "${image_file}"
 
 run: load
-	docker rm -f "${container_name}" > /dev/null 2>&1
+	-docker rm -f "${container_name}" > /dev/null 2>&1
 	docker run -d --name "${container_name}" -p ${container_host_port}:8080 manual-mini-image:1.1
 
 test: run
