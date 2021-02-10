@@ -206,7 +206,7 @@ compress the layers during the layer creation.
 
 The digest can be determined with `sha256sum layer_(0|1).tar`.
 
-This leads to the following image JSON description (`LAYER_(0|1)_DIFFID` are just placeholder):
+This leads to the following image JSON description (`LAYER_(0|1)_DIFFID` are just placeholders):
 ```json
 {
     "architecture": "amd64",
