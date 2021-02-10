@@ -1,4 +1,4 @@
-# Create a Docker image manually 
+# Create a Docker image by hand
 
 When I started with docker my intuitive idea of what an image is was:
 *An image is a blue print of a container. It is similar to a stopped VM image.*
