@@ -46,7 +46,7 @@ func main() {
 }
 ```
 
-I compile the server with:
+I compile the server with:<br/>
 `env CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -a -o serve`
 
 Read [here](https://oddcode.daveamit.com/2018/08/16/statically-compile-golang-binary/) if you
